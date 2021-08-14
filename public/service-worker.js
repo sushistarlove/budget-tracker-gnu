@@ -4,15 +4,15 @@ const FILES_TO_CACHE = [
   "/styles.css",
   "/db.js",
   "/index.js",
-  "/assets/images/icons/icon-512x512.png",
-  "/assets/images/icons/icon-192x192.png",
+  "icons/icon-512x512.png",
+  "icons/icon-192x192.png",
   "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
   "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
   "/manifest.webmanifest",
 ];
 
-const CACHE_NAME = "static";
-const DATA_CACHE_NAME = "data";
+const CACHE_NAME = "staticcache";
+const DATA_CACHE_NAME = "datacache";
 
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
