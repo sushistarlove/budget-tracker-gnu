@@ -16,8 +16,8 @@ const DATA_CACHE_NAME = "datacache";
 
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(FILES_TO_CACHE);
+    caches.open(CACHE_NAME).then((Cache) => {
+      return Cache.addAll(FILES_TO_CACHE);
     })
   );
   self.skipWaiting;
