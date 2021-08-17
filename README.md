@@ -38,4 +38,4 @@
   
   Link to my Github: https://github.com/sushistarlove
   
-  Email Me!: gunnarulatowsli@outlook.com
+  Email Me!: gunnarulatowski@outlook.com
