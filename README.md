@@ -12,6 +12,8 @@
   ## Description
       
   A  budget tracker app built using PWA technology and deployed to heroku. The purpose is being able to make changes to your account offline.
+  
+  Deployed: https://warm-sierra-13963.herokuapp.com/
       
   ## Getting Started
       
